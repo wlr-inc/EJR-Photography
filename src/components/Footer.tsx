@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-2">
               <Camera className="h-8 w-8 text-white" />
               <span className="font-serif text-xl font-semibold">
-                Captured by Emma Photography
+                EJR Photography
               </span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <div className="flex justify-center items-center space-x-4 mb-2">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Captured by Emma Photography. All rights reserved.
+              © {currentYear} EJR Photography. All rights reserved.
             </p>
             {currentUser && (
               <Link

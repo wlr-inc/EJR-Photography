@@ -33,7 +33,7 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center space-x-2">
             <Camera className="h-8 w-8 text-gray-900" />
             <span className="font-serif text-xl font-semibold text-gray-900">
-              Captured by Emma Photography
+              EJR Photography
             </span>
           </Link>
 
