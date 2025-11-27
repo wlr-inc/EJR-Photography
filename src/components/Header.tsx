@@ -30,8 +30,10 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <Camera className="h-8 w-8 text-gray-900" />
+          <Link to="/" className="flex items-center">
+            <span className="inline-flex items-center justify-center h-6 w-6 bg-gray-900 text-white rounded mr-2">
+              <Camera className="h-4 w-4" />
+            </span>
             <span className="font-serif text-xl font-semibold text-gray-900">
               EJR Photography
             </span>
